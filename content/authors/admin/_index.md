@@ -1,99 +1,85 @@
 ---
 # Display name
-title: 吳健雄
+title: مرتضى
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Murtaza
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Murtaza
+last_name: Ali
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🖊️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Ph.D. Candidate at the University of Washington
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Washington, LED Lab
+    url: https://depts.washington.edu/ledlab/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mali53 [at] uw [dot] edu'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://x.com/murtazaali_5253
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/murtazaabbasali/
+  - icon: brands/medium
+    url: https://medium.com/@murtaza5152-ali
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: Ph.D., Human-Centered Design and Engineering
     institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-09-01
+    date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Studying how we learn computing and data, and how we can learn it better. I design courses and build tools.
+  - area: M.S., Human-Centered Design and Engineering
+    institution: University of Washington
+    date_start: 2021-09-01
+    date_end: 2023-06-15
   - area: BSc Artificial Intelligence
     institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2017-08-01
+    date_end: 2021-05-15
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Where my interest in learning began. Head Teaching Assistant and Summer Lecturer for Berkeley's specially designed programming course for non-majors: The Beauty and Joy of Computing.
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Research Assistant
+    company_name: Learning, Epistemology, and Design Lab
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-09-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+  - position: Course Developer and Lecturer
+    company_name: Uplimit
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-01-01
+    date_end: ''
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Instructor for top-rated Python Crash Course
+      - Consultant on development of current and upcoming Generative AI courses
+  - position: Learning and Prompt Engineer
+    company_name: 2Sigma School
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-09-01
+    date_end: ''
+    summary: |
+      - Consultant and prompt engineer to assist in development of AI-assisted tools to promote K-12 computer science education
+      - Intermittent teacher for introductory computer science and data science courses
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -104,37 +90,37 @@ skills:
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
+      - name: Writing
         description: ''
         percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
+        icon: ''
+      - name: Teaching
         description: ''
-        percent: 40
-        icon: devicon/pytorch
+        percent: 100
+        icon: ''
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 100
         icon: person-simple-walk
-      - name: Cats
+      - name: (Non-Academic) Writing
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: ''
+      - name: Cooking
         description: ''
         percent: 80
-        icon: camera
+        icon: chef
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: Urdu
     percent: 75
-  - name: Portuguese
+  - name: Arabic
     percent: 25
 
 # Awards.
@@ -142,31 +128,14 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Electrical Engineering and Computer Sciences Outstanding Teaching Assistant
+    url: https://www2.eecs.berkeley.edu/Students/Awards/13/
+    date: '2021-05-15'
+    awarder: UC Berkeley
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      EECS invite the faculty to nominate approximately the top nine percent of our GSIs and TAs from Spring, Summer and Fall semesters of the previous calendar year. From these, the Student Awards committee selects a subset for departmental Outstanding TA awards.
+ 
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently a Ph.D. Candidate at the University of Washington where I study how people learn introductory programming and data visualization. My research focuses on increasing accessibility of computing and data courses for non-CS majors.
